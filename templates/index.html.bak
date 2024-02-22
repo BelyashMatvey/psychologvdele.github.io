@@ -1,0 +1,52 @@
+﻿{% extends 'base.html' %}
+{% block title %}
+    Home
+{% endblock %}
+{% block body %}
+    <style>
+        .conteiner div {
+            display: inline-block;
+            width: 186px
+        }
+
+    </style>
+    <div class="container marketing">
+        <br>
+        <br>
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">Карпинская Валерия Юльевна.<br><span class="text-muted"> Психолог, доктор психологических наук, доцент. </span>
+                </h2>
+                <br>
+                <h5 class="featurette-heading"><span class="text-muted">Сознание, восприятие и действие, иллюзии восприятия, когнитивная наука, познание, сенсомоторная интеграция</span>
+                </h5>
+                <br>
+                <br>
+                <h4 class="featurette-heading"><span class="text-muted">Психология без мистики и шаманства</span></h4>
+                <br>
+                <h3 class="featurette-heading"><span class="text-muted">Автор научных статей и книг, автор и соавтор он-лайн образовательных и практических
+                    курсов по психологии, эксперт лаборатории нейоровизуализации института мозга им Н.П. Бехтеревой,
+                    руководитель научно-исследовательской работы в научно-методическом центре сенсомоторной интеграции
+                    ООО "Сова-нянька" психолог-консультант.</span></h3>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="../static/photo_2021-12-29_09-21-49.jpg" width="250px" height="400px" alt=""/>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row-featurette">
+            <div class="conteiner">
+                <img src="../static/photo_2022-02-02_22-47-08.jpg" width="33%" height="5%" alt=""/>
+                <img src="../static/photo_2022-02-02_22-47-13.jpg" width="33%" height="5%" alt=""/>
+                <img src="../static/photo_2022-02-02_22-47-30.jpg" width="33%" height="5%" alt=""/>
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <!-- /END THE FEATURETTES -->
+
+    </div>
+{% endblock %}
